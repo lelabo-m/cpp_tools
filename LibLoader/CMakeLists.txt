@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.4)
-project(LibLoader)
+project(LibLoaderTest)
 
 set(Boost_INCLUDE_DIR /usr/local/boost_1_56_0)
 set(Boost_LIBRARY_DIR /usr/local/boost_1_56_0/stage/lib)
@@ -15,5 +15,5 @@ set(SOURCE_FILES
     LibLoader/LibManager.hh
     LibLoader/TestMain.cpp)
 
-add_executable(LibLoader ${SOURCE_FILES})
-target_link_libraries( LibLoader ${Boost_LIBRARIES} -ldl )
+add_executable(LibLoaderTest ${SOURCE_FILES})
+target_link_libraries( LibLoaderTest ${Boost_LIBRARIES} -ldl )
