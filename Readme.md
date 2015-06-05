@@ -11,4 +11,8 @@ class ThreadPool:
  |-> scopelock : lock (or not) the function scope and variable used.
  |-> args ... : variatic parameter for the function.
 
+## Filesytem
+
+A c++ header which contains a mini filesystem for Linux/Windows compatibility.
+
 Modified from this project: https://github.com/progschj/ThreadPool.git
